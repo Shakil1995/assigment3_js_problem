@@ -1,13 +1,11 @@
 //problem -1
 // kilometerToMeter
 
-
 //problem -2
 // budgetCalculator
 // gori =50;
 // mobile =100;
 // leptop=500;
-
 
 //problem -3
 // hotelCost
@@ -15,10 +13,11 @@
 // sec_10_days=80;
 // last-all_days=50;
 
-
 //problem -4
 // megaFriend
 // find lerge arry or lerge Friendname
+
+
 
 // ---------------------------------------------------------------------
 //problem 1
@@ -58,7 +57,7 @@ var result=budgetCalculator(1,50,01);
 console.log(result); 
 
 // ---------------------------------------------------------------------
-
+//problem 3
 function hotelCost(days) {
     var perDayCost=0;
     if(days<0){
@@ -94,7 +93,7 @@ console.log( 'Your Hotel Rent Total Cost : '+  hotelTotalCost);
 
 
 // ---------------------------------------------------------------------
-
+//problem 4
   function megaFriend (arr) {
 
 
@@ -119,13 +118,12 @@ return 'No Array Found ';
   
 }
 
-
- var  arr = [
-              //  'nurul amin',
-              //  'amin shakil',
-              //  'bangladesh',
-              //  'nurul amin shakil',
-              //  'programming hero'
+var  arr = [
+               'nurul amin',
+               'amin shakil',
+               'bangladesh',
+               'nurul amin shakil',
+               'programming hero'
              ];
 var lergeFriendName=megaFriend(arr);
 
